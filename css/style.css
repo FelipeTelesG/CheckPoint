@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 150px;
+    background-color: rgba(5, 138, 226, 1);
+}
+
+.header-title {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-nav-menu-list {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.nave-menu-item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nave-menu-item img {
+    height: 25px;
+}
+
+#shopping-cart-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    border-radius: 50px;
+    background-color: teal;
+    height: 45px;
+    width: 45px;
+}
+
+.sub-title {
+    height: 100px;
+    height: 50px;
+    padding: 25px 50px 75px 100px;
+}
+
+.header-img-fundo {
+    display: flex;
+    justify-content: center;
+}
+
+.header-curiosidades {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    gap: 180px;
+}
+
+.curiosidades {
+    width: 200px;
+    height: 450px;
+    background-color: rgb(128, 125, 125);
+    border-radius: 10px;
+}
+
+.rodape {
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+    background: #444546;
+}
+
+.header-nav-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+.nave-rodape-item img {
+    height: 75px;
+    max-width: 100%;
+}
+
+#cart-nav-icon {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    left: 490px;
+}
+
+.nave-rodape-item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*Mobile S*/
+@media (min-width: 320px) {
+    .curiosidades {
+        width: 45vw;
+    }
+}
+
+/*Mobile M*/
+@media (min-width: 768px) {
+    .curiosidades {
+        width: 25vw;
+    }
+}
+
+
+/*Mobile S*/
+@media (min-width: 1024px) {
+    .curiosidades {
+        width: 20vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .curiosidades {
+        width: 15vw;
+    }
+}
